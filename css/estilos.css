@@ -1,0 +1,55 @@
+
+.body-color{
+    background-color: #E83A14;
+}
+
+h5{
+    font-weight: 00;
+   }
+   .subtitulo{
+       font-weight: 600;
+       color: black;
+   }
+   
+   
+   .h5-fw{
+       font-weight: 900;
+   }
+   
+   .p-fw{
+       font-weight: 500;
+       color: black;
+   }
+   
+   .li-fw{
+       font-weight: 400;
+   }
+
+.background-navegacion{
+    background-color: #ECECEC;
+}
+
+.estilosParaFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #ECECEC;
+}
+
+.icono{
+    height: 40px;
+}
+
+@media screen and (max-width: 480px){
+    .p-fw{font-size: 10px;}
+    .li-fw{padding: 5px; font-size: 10px;}
+    .h5-fw{font-size: 12px;}
+}
+    
+
+    
+
+

@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Videojuegos</title>
+  </head>
+  <body class="body-color">
+    <!--INICIO DE CONTAINER FLUID-->
+    <div class="container-fluid">
+        <!--INICIO DE LA FILA MAESTRA-->
+        <div class="row">
+            <!--INICIO DE LA MEDIDA DE LA BARRA DE NAVEGACION-->
+            <div class="col-12 container mb-5">
+                <!--INICIO DE LA NAV-->
+                <nav class="navbar navbar-light background-navegacion fixed-top">
+                    <div class="container-fluid background-navegacion">
+                      <a class="navbar-brand" href="../index.html">MONGAME</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navegación</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categorias
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="../Secciones/mas-populares.html">Más populares</a>
+                                </li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../Secciones/gratis.html">Gratis</a>
+                                </li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../Secciones/proximamente.html">Proximamente</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Genero
+                              </a>
+                              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="./deportes.html">Deportes</a>
+                                </li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Acción</a>
+                                </li>
+                                <li>
+                                  <hr class="dropdown-divider">
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="../Secciones/aventuras.html">Aventuras</a>
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                <!--FINAL DE LA NAV-->
+            </div>
+            <!--FINAL DE LA MEDIDA DE LA BARRA DE NAVEGACION-->
+            <!--INICIO DE LA CARTA 1-->
+            <div class="col-5 container mt-5 d-flex justify-content-center">
+                <div class="card border border-5 border-dark" style="width: 18rem;">
+                    <a href="../Secciones/Accion/counterstrike-globaloffensive.html">
+                        <img src="../Assets/csgo-carta.jpg" class="card-img-top img-fluid" alt="counterstrike-globaloffensive">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title text-center h5-fw">Counter-Strike: Global Offensive</h5>
+                      <p class="card-text p-fw">Counter-Strike: Global Offensive (CS:GO) amplía el juego de acción por equipos del que fue pionero cuando salió hace más de 20 años. CS:GO incluye nuevos mapas, personajes, armas y modos de juego, y ofrece versiones actualizadas del contenido clásico de Counter-Strike (de_dust2, etc.).</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item li-fw">Desarrollador: Valve, Hidden Path Entertainment</li>
+                      <li class="list-group-item li-fw">Fecha de lanzamiento: 21 AGOSTO 2012</li>
+                      <li class="list-group-item li-fw">Etiquetas populares: Disparos - Competitivos - Multijugador</li>
+                    </ul>
+                </div>
+            </div>
+            <!--FINAL DE LA CARTA 1-->
+            <!--INICIO DE LA CARTA 2-->
+            <div class="col-5 container mt-5 d-flex justify-content-center">
+                <div class="card border border-5 border-dark" style="width: 18rem;">
+                    <a href="../Secciones/Accion/Apex-legends.html">
+                        <img src="../Assets/apex-legends-carta.jpg" class="card-img-top img-fluid" alt="apex-legends">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title text-center h5-fw">Apex Legends</h5>
+                      <p class="card-text p-fw">Apex Legends es el galardonado juego gratuito de acción en primera persona de Respawn Entertainment. Domina un elenco creciente de leyendas con potentes habilidades. Juego estratégico basado en pelotones y jugabilidad innovadora en la nueva evolución del Battle Royal.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item li-fw">Desarrollador: Respawn Entertainment</li>
+                      <li class="list-group-item li-fw">Fecha de lanzamiento: 5 NOVIEMBRE 2020</li>
+                      <li class="list-group-item li-fw">Etiquetas populares: Battle Royal - Multijugador - Disparos</li>
+                    </ul>
+                </div>
+            </div>
+            <!--FINAL DE LA CARTA 2-->
+            <!--INICIO DE LA CARTA 3-->
+            <div class="col-5 container mt-5 d-flex justify-content-center">
+                <div class="card border border-5 border-dark" style="width: 18rem;">
+                    <a href="../Secciones/Accion/Destiny2.html">
+                        <img src="../Assets/destiny2-carta.jpg" class="card-img-top img-fluid" alt="destiny2">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title text-center h5-fw">Destiny 2</h5>
+                      <p class="card-text p-fw">Destiny 2 es un MMO de acción con un mundo único y dinámico al que tus amigos y tú os podéis unir en cualquier momento y desde cualquier lugar de forma totalmente gratuita.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item li-fw">Desarrollador: Bungie</li>
+                      <li class="list-group-item li-fw">Fecha de lanzamiento: 1 OCTUBRE 2019</li>
+                      <li class="list-group-item li-fw">Etiquetas populares: Mundo abierto - Disparos - Primera persona</li>
+                    </ul>
+                </div>
+            </div>
+            <!--FINAL DE LA CARTA 3-->
+            <!--INICIO DE LA CARTA 4-->
+            <div class="col-5 container mt-5 d-flex justify-content-center">
+                <div class="card border border-5 border-dark" style="width: 18rem;">
+                    <a href="../Secciones/Accion/grand-theft-auto-V.html">
+                        <img src="../Assets/gta-carta.jpg" class="card-img-top img-fluid" alt="grand-theft-auto-V">
+                    </a>
+                    <div class="card-body">
+                      <h5 class="card-title text-center h5-fw">Grand Theft Auto V</h5>
+                      <p class="card-text p-fw">Grand Theft Auto V para PC ofrece a los jugadores la opción de explorar el galardonado mundo de Los Santos y el condado de Blaine con una resolución de 4K y disfrutar del juego a 60 fotogramas por segundo</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item li-fw">Desarrollador: Rockstar North</li>
+                      <li class="list-group-item li-fw">Fecha de lanzamiento: 14 ABRIL 2015</li>
+                      <li class="list-group-item li-fw">Etiquetas populares: Mundo abierto - Acción - Multijugador </li>
+                    </ul>
+                </div>
+            </div>
+            <!--FINAL DE LA CARTA 4-->
+            <!--INICIO DEL FOOTER-->
+        <footer class="container col-12 mt-4">
+            <div class="estilosParaFooter">
+              <a href="">
+                <img src="../Assets/instagram.png" alt="instagram-logo" class="icono">
+              </a>
+              <a href="">
+                <img src="../Assets/linkedin.png" alt="linkedin-logo" class="icono">
+              </a>
+              <a href="">
+                <img src="../Assets/github.png" alt="github-logo" class="icono">
+              </a>
+              <a href="">
+                <img src="../Assets/twitter.png" alt="twitter-logo" class="icono">
+              </a>
+            
+            </div>
+          </footer>
+          <!--FINAL DEL FOOTER-->
+        </div>
+        <!--FINAL DE FILA MAESTRA-->
+    </div>
+    <!--FINAL DE CONTAINER FLUID-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
